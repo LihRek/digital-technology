@@ -1,0 +1,30 @@
+* 
+{
+    text-align: center;
+    margin: 0 auto;
+}
+
+body 
+{background-color: #CEE0DC;}
+
+p 
+{
+    font-size: 5em;
+    color: #d66000;
+    font-family: 'Raleway', sans-serif;
+}
+
+img 
+{
+    width: 20%;
+    transform: rotate(0deg);
+    animation: rot 10s linear infinite;
+}
+
+@keyframes rot 
+{
+    form 
+    {transform: rotate(0deg)}
+    to 
+    {transform: rotate(360deg)}
+}
